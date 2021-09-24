@@ -1,0 +1,15 @@
+.foods {
+  margin-top: 5rem;
+  width: 75%;
+}
+.search-container {
+  position: fixed;
+  top: 32px;
+  width: 100%;
+  background-color: rgb(63, 80, 33);
+  text-align: center;
+}
+.search-container input {
+  width: 75%;
+  line-height: 20px;
+}

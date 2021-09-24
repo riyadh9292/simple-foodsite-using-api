@@ -1,0 +1,27 @@
+.single-food-container {
+  border: 2px solid rgba(221, 124, 60, 0.582);
+  background-color: rgba(226, 176, 11, 0.445);
+  margin: 2rem;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  align-items: center;
+  grid-gap: 20px;
+}
+.single-food-container img {
+  height: 350px;
+  border-radius: 20px;
+}
+.single-food-container button {
+  width: 100%;
+  height: 28px;
+  background-color: rgb(85, 40, 34);
+  color: darkkhaki;
+  font-weight: bold;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.single-food-container button:hover {
+  color: rgb(85, 40, 34);
+  background-color: darkkhaki;
+}
